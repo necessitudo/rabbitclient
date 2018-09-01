@@ -1,0 +1,23 @@
+{
+  "ApiEndpoints": [
+    {
+      "name": "plazma",
+      "description": "",
+      "subscription": "\\mab\\dubrovin_plazma\\hs\\rabbitmq\\subscription",
+      "login": "WS_Robot",
+      "password": "123",
+      "destination": "\\mab\\dubrovin_plazma\\hs\\rabbitmq\\destination"
+    }
+  ],
+  "Main": {
+    "server": "192.168.58.120",
+    "port": 15674,
+    "login": "dubrovin",
+    "password": "1234567890",
+    "proxy": {
+      "apply": true,
+      "server": "10.0.1.12",
+      "port": 8110
+    }
+  }
+}
