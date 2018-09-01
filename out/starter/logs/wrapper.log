@@ -1,0 +1,386 @@
+STATUS | wrapper  | 2018/08/31 13:07:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:07:56 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:07:56 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:07:56 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:07:56 | 
+STATUS | wrapper  | 2018/08/31 13:07:57 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:07:57 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:07:57 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:08:02 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 13:08:02 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:08:02 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:08:07 | Launching a JVM...
+INFO   | jvm 3    | 2018/08/31 13:08:07 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:08:07 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:08:12 | Launching a JVM...
+INFO   | jvm 4    | 2018/08/31 13:08:12 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:08:12 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:08:15 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2018/08/31 13:08:15 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:09:14 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:09:14 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:09:14 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:09:14 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:09:14 | 
+STATUS | wrapper  | 2018/08/31 13:09:14 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:09:15 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:09:15 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:09:19 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 13:09:21 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:09:21 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:09:26 | Launching a JVM...
+INFO   | jvm 3    | 2018/08/31 13:09:26 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:09:26 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:09:31 | Launching a JVM...
+INFO   | jvm 4    | 2018/08/31 13:09:31 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:09:31 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:09:36 | Launching a JVM...
+INFO   | jvm 5    | 2018/08/31 13:09:36 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:09:36 | JVM exited while loading the application.
+FATAL  | wrapper  | 2018/08/31 13:09:37 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2018/08/31 13:09:37 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2018/08/31 13:09:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:14:11 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:14:11 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:14:11 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:14:11 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:14:11 | 
+STATUS | wrapper  | 2018/08/31 13:14:12 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:14:12 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:14:12 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:14:17 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 13:14:17 | Error: Could not find or load main class Main
+ERROR  | wrapper  | 2018/08/31 13:14:17 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:14:45 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:14:45 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:14:45 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:14:45 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:14:45 | 
+STATUS | wrapper  | 2018/08/31 13:14:45 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:14:46 | Enter "exit" for quit
+ERROR  | wrapper  | 2018/08/31 13:14:57 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:15:02 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 13:15:07 | java.util.concurrent.TimeoutException
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:315)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.impl.recovery.RecoveryAwareAMQConnectionFactory.newConnection(RecoveryAwareAMQConnectionFactory.java:64)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.init(AutorecoveringConnection.java:138)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1019)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:978)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:936)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1091)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | 	at Main.main(Main.java:43)
+INFO   | jvm 2    | 2018/08/31 13:15:07 | log4j:WARN No appenders could be found for logger (com.rabbitmq.client.impl.ForgivingExceptionHandler).
+INFO   | jvm 2    | 2018/08/31 13:15:07 | log4j:WARN Please initialize the log4j system properly.
+INFO   | jvm 2    | 2018/08/31 13:15:07 | log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR  | wrapper  | 2018/08/31 13:15:07 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:15:12 | Launching a JVM...
+INFO   | jvm 3    | 2018/08/31 13:15:13 | Enter "exit" for quit
+ERROR  | wrapper  | 2018/08/31 13:15:40 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:16:17 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:16:17 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:16:17 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:16:17 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:16:17 | 
+STATUS | wrapper  | 2018/08/31 13:16:17 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:16:18 | Enter "exit" for quit
+ERROR  | wrapper  | 2018/08/31 13:16:29 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:16:33 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 13:16:34 | Enter "exit" for quit
+STATUS | wrapper  | 2018/08/31 13:19:52 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:19:52 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:19:52 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:19:52 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:19:52 | 
+STATUS | wrapper  | 2018/08/31 13:19:52 | Launching a JVM...
+STATUS | wrapper  | 2018/08/31 13:20:01 | CTRL-C trapped.  Shutting down.
+ERROR  | wrapper  | 2018/08/31 13:20:35 | Shutdown failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2018/08/31 13:20:35 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 13:20:35 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 13:20:36 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:28:02 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:28:02 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:28:02 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:28:02 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:28:02 | 
+STATUS | wrapper  | 2018/08/31 13:28:03 | Launching a JVM...
+ERROR  | wrapper  | 2018/08/31 13:28:32 | Startup failed: Timed out waiting for a signal from the JVM.
+ADVICE | wrapper  | 2018/08/31 13:29:02 | 
+ADVICE | wrapper  | 2018/08/31 13:29:02 | ------------------------------------------------------------------------
+ADVICE | wrapper  | 2018/08/31 13:29:02 | Advice:
+ADVICE | wrapper  | 2018/08/31 13:29:02 | The Wrapper consists of a native component as well as a set of classes
+ADVICE | wrapper  | 2018/08/31 13:29:02 | which run within the JVM that it launches.  The Java component of the
+ADVICE | wrapper  | 2018/08/31 13:29:02 | Wrapper must be initialized promptly after the JVM is launched or the
+ADVICE | wrapper  | 2018/08/31 13:29:02 | Wrapper will timeout, as just happened.  Most likely the main class
+ADVICE | wrapper  | 2018/08/31 13:29:02 | specified in the Wrapper configuration file is not correctly initializing
+ADVICE | wrapper  | 2018/08/31 13:29:02 | the Wrapper classes:
+ADVICE | wrapper  | 2018/08/31 13:29:02 |     Main
+ADVICE | wrapper  | 2018/08/31 13:29:02 | While it is possible to do so manually, the Wrapper ships with helper
+ADVICE | wrapper  | 2018/08/31 13:29:02 | classes to make this initialization processes automatic.
+ADVICE | wrapper  | 2018/08/31 13:29:02 | Please review the integration section of the Wrapper's documentation
+ADVICE | wrapper  | 2018/08/31 13:29:02 | for the various methods which can be employed to launch an application
+ADVICE | wrapper  | 2018/08/31 13:29:02 | within the Wrapper:
+ADVICE | wrapper  | 2018/08/31 13:29:02 |     http://wrapper.tanukisoftware.com/doc/english/integrate.html
+ADVICE | wrapper  | 2018/08/31 13:29:02 | ------------------------------------------------------------------------
+ADVICE | wrapper  | 2018/08/31 13:29:02 | 
+INFO   | wrapper  | 2018/08/31 13:29:02 | Wrapper Process has not received any CPU time for 29 seconds.  Extending timeouts.
+STATUS | wrapper  | 2018/08/31 13:30:59 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:30:59 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:30:59 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:30:59 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:30:59 | 
+STATUS | wrapper  | 2018/08/31 13:30:59 | Launching a JVM...
+ERROR  | wrapper  | 2018/08/31 13:30:59 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:31:04 | Launching a JVM...
+ERROR  | wrapper  | 2018/08/31 13:31:04 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:31:09 | Launching a JVM...
+ERROR  | wrapper  | 2018/08/31 13:31:09 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:31:14 | Launching a JVM...
+ERROR  | wrapper  | 2018/08/31 13:31:14 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:31:19 | Launching a JVM...
+ERROR  | wrapper  | 2018/08/31 13:31:19 | JVM exited while loading the application.
+FATAL  | wrapper  | 2018/08/31 13:31:20 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2018/08/31 13:31:20 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2018/08/31 13:31:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:38:47 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:38:47 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:38:47 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:38:47 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:38:47 | 
+STATUS | wrapper  | 2018/08/31 13:38:47 | Launching a JVM...
+ERROR  | wrapper  | 2018/08/31 13:39:16 | Startup failed: Timed out waiting for a signal from the JVM.
+ADVICE | wrapper  | 2018/08/31 13:39:36 | 
+ADVICE | wrapper  | 2018/08/31 13:39:36 | ------------------------------------------------------------------------
+ADVICE | wrapper  | 2018/08/31 13:39:36 | Advice:
+ADVICE | wrapper  | 2018/08/31 13:39:36 | The Wrapper consists of a native component as well as a set of classes
+ADVICE | wrapper  | 2018/08/31 13:39:36 | which run within the JVM that it launches.  The Java component of the
+ADVICE | wrapper  | 2018/08/31 13:39:36 | Wrapper must be initialized promptly after the JVM is launched or the
+ADVICE | wrapper  | 2018/08/31 13:39:36 | Wrapper will timeout, as just happened.  Most likely the main class
+ADVICE | wrapper  | 2018/08/31 13:39:36 | specified in the Wrapper configuration file is not correctly initializing
+ADVICE | wrapper  | 2018/08/31 13:39:36 | the Wrapper classes:
+ADVICE | wrapper  | 2018/08/31 13:39:36 |     Main
+ADVICE | wrapper  | 2018/08/31 13:39:36 | While it is possible to do so manually, the Wrapper ships with helper
+ADVICE | wrapper  | 2018/08/31 13:39:36 | classes to make this initialization processes automatic.
+ADVICE | wrapper  | 2018/08/31 13:39:36 | Please review the integration section of the Wrapper's documentation
+ADVICE | wrapper  | 2018/08/31 13:39:36 | for the various methods which can be employed to launch an application
+ADVICE | wrapper  | 2018/08/31 13:39:36 | within the Wrapper:
+ADVICE | wrapper  | 2018/08/31 13:39:36 |     http://wrapper.tanukisoftware.com/doc/english/integrate.html
+ADVICE | wrapper  | 2018/08/31 13:39:36 | ------------------------------------------------------------------------
+ADVICE | wrapper  | 2018/08/31 13:39:36 | 
+INFO   | wrapper  | 2018/08/31 13:39:36 | Wrapper Process has not received any CPU time for 19 seconds.  Extending timeouts.
+STATUS | wrapper  | 2018/08/31 13:42:47 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:42:47 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:42:47 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:42:47 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:42:47 | 
+STATUS | wrapper  | 2018/08/31 13:42:47 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:42:54 | receiving!{"confirmedd":false}
+STATUS | wrapper  | 2018/08/31 13:43:05 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2018/08/31 13:43:19 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2018/08/31 13:43:19 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 13:43:19 | CTRL-C trapped.  Forcing immediate shutdown.
+INFO   | wrapper  | 2018/08/31 13:43:19 | JVM exited on its own while waiting to kill the application.
+STATUS | wrapper  | 2018/08/31 13:43:19 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2018/08/31 13:43:19 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:43:35 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:43:35 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:43:35 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:43:35 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:43:35 | 
+STATUS | wrapper  | 2018/08/31 13:43:35 | Launching a JVM...
+STATUS | wrapper  | 2018/08/31 13:43:39 | CTRL-C trapped.  Shutting down.
+ERROR  | wrapper  | 2018/08/31 13:44:16 | Shutdown failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2018/08/31 13:44:16 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 13:44:16 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 13:44:17 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:46:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:46:41 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:46:41 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:46:41 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:46:41 | 
+STATUS | wrapper  | 2018/08/31 13:46:41 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:46:42 | Starting MyApp shutdown...
+INFO   | jvm 1    | 2018/08/31 13:46:42 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 13:46:42 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:46:46 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 13:46:47 | Starting MyApp shutdown...
+INFO   | jvm 2    | 2018/08/31 13:46:47 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 13:46:47 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:46:51 | Launching a JVM...
+INFO   | jvm 3    | 2018/08/31 13:46:51 | Starting MyApp shutdown...
+INFO   | jvm 3    | 2018/08/31 13:46:51 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 13:46:51 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:46:56 | Launching a JVM...
+INFO   | jvm 4    | 2018/08/31 13:46:56 | Starting MyApp shutdown...
+INFO   | jvm 4    | 2018/08/31 13:46:56 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 13:46:56 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 13:47:01 | Launching a JVM...
+INFO   | jvm 5    | 2018/08/31 13:47:01 | Starting MyApp shutdown...
+INFO   | jvm 5    | 2018/08/31 13:47:01 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 13:47:01 | JVM exited while loading the application.
+FATAL  | wrapper  | 2018/08/31 13:47:01 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2018/08/31 13:47:01 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2018/08/31 13:47:02 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:54:15 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:54:15 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:54:15 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:54:15 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:54:15 | 
+STATUS | wrapper  | 2018/08/31 13:54:16 | Launching a JVM...
+STATUS | wrapper  | 2018/08/31 13:54:25 | CTRL-C trapped.  Shutting down.
+ERROR  | wrapper  | 2018/08/31 13:54:59 | Shutdown failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2018/08/31 13:54:59 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 13:54:59 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 13:55:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:56:08 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:56:08 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:56:08 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:56:08 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:56:08 | 
+STATUS | wrapper  | 2018/08/31 13:56:09 | Launching a JVM...
+STATUS | wrapper  | 2018/08/31 13:56:12 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2018/08/31 13:56:13 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2018/08/31 13:56:13 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 13:56:13 | CTRL-C trapped.  Forcing immediate shutdown.
+INFO   | wrapper  | 2018/08/31 13:56:13 | JVM exited on its own while waiting to kill the application.
+STATUS | wrapper  | 2018/08/31 13:56:13 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2018/08/31 13:56:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 13:56:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 13:56:56 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 13:56:56 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 13:56:56 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 13:56:56 | 
+STATUS | wrapper  | 2018/08/31 13:56:56 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 13:56:57 | Connection success!
+STATUS | wrapper  | 2018/08/31 14:00:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:00:54 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:00:54 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:00:54 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:00:54 | 
+STATUS | wrapper  | 2018/08/31 14:00:54 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:00:55 | Connection success!
+STATUS | wrapper  | 2018/08/31 14:00:58 | CTRL-C trapped.  Shutting down.
+ERROR  | wrapper  | 2018/08/31 14:01:32 | Shutdown failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2018/08/31 14:01:32 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 14:01:33 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 14:01:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 14:02:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:02:57 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:02:57 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:02:57 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:02:57 | 
+STATUS | wrapper  | 2018/08/31 14:02:58 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:02:58 | Connection success!
+INFO   | jvm 1    | 2018/08/31 14:02:58 | Enter "exit" for quit
+STATUS | wrapper  | 2018/08/31 14:03:03 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2018/08/31 14:03:03 | No line found
+STATUS | wrapper  | 2018/08/31 14:03:35 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:03:35 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:03:35 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:03:35 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:03:35 | 
+STATUS | wrapper  | 2018/08/31 14:03:36 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:03:36 | Connection success!
+INFO   | jvm 1    | 2018/08/31 14:03:36 | Enter "exit" for quit
+INFO   | jvm 1    | 2018/08/31 14:03:57 | Starting MyApp shutdown...
+INFO   | jvm 1    | 2018/08/31 14:03:57 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 14:03:57 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 14:04:02 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 14:04:02 | Connection success!
+INFO   | jvm 2    | 2018/08/31 14:04:02 | Enter "exit" for quit
+STATUS | wrapper  | 2018/08/31 14:04:11 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 2    | 2018/08/31 14:04:11 | No line found
+ERROR  | wrapper  | 2018/08/31 14:04:45 | Shutdown failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2018/08/31 14:04:45 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 14:04:45 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 14:04:46 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 14:06:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:06:09 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:06:09 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:06:09 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:06:09 | 
+STATUS | wrapper  | 2018/08/31 14:06:10 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:06:10 | Connection success!
+STATUS | wrapper  | 2018/08/31 14:06:15 | CTRL-C trapped.  Shutting down.
+ERROR  | wrapper  | 2018/08/31 14:06:50 | Shutdown failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2018/08/31 14:06:50 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 14:06:50 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 14:06:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/08/31 14:09:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:09:33 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:09:33 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:09:33 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:09:33 | 
+STATUS | wrapper  | 2018/08/31 14:09:33 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:09:33 | Connection success!
+INFO   | jvm 1    | 2018/08/31 14:09:38 | receiving!{"confirmedd":false}
+STATUS | wrapper  | 2018/08/31 14:28:08 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:28:08 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:28:08 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:28:08 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:28:08 | 
+STATUS | wrapper  | 2018/08/31 14:28:08 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:28:09 | Connection success!
+INFO   | jvm 1    | 2018/08/31 14:28:13 | receiving!{"confirmedd":false}
+INFO   | jvm 1    | 2018/08/31 14:28:13 | Starting MyApp shutdown...
+INFO   | jvm 1    | 2018/08/31 14:28:13 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 14:28:13 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 14:28:18 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 14:28:18 | Connection success!
+ERROR  | wrapper  | 2018/08/31 14:28:47 | Startup failed: Timed out waiting for a signal from the JVM.
+ADVICE | wrapper  | 2018/08/31 14:28:47 | 
+ADVICE | wrapper  | 2018/08/31 14:28:47 | ------------------------------------------------------------------------
+ADVICE | wrapper  | 2018/08/31 14:28:47 | Advice:
+ADVICE | wrapper  | 2018/08/31 14:28:47 | The Wrapper consists of a native component as well as a set of classes
+ADVICE | wrapper  | 2018/08/31 14:28:47 | which run within the JVM that it launches.  The Java component of the
+ADVICE | wrapper  | 2018/08/31 14:28:47 | Wrapper must be initialized promptly after the JVM is launched or the
+ADVICE | wrapper  | 2018/08/31 14:28:47 | Wrapper will timeout, as just happened.  Most likely the main class
+ADVICE | wrapper  | 2018/08/31 14:28:47 | specified in the Wrapper configuration file is not correctly initializing
+ADVICE | wrapper  | 2018/08/31 14:28:47 | the Wrapper classes:
+ADVICE | wrapper  | 2018/08/31 14:28:47 |     Main
+ADVICE | wrapper  | 2018/08/31 14:28:47 | While it is possible to do so manually, the Wrapper ships with helper
+ADVICE | wrapper  | 2018/08/31 14:28:47 | classes to make this initialization processes automatic.
+ADVICE | wrapper  | 2018/08/31 14:28:47 | Please review the integration section of the Wrapper's documentation
+ADVICE | wrapper  | 2018/08/31 14:28:47 | for the various methods which can be employed to launch an application
+ADVICE | wrapper  | 2018/08/31 14:28:47 | within the Wrapper:
+ADVICE | wrapper  | 2018/08/31 14:28:47 |     http://wrapper.tanukisoftware.com/doc/english/integrate.html
+ADVICE | wrapper  | 2018/08/31 14:28:47 | ------------------------------------------------------------------------
+ADVICE | wrapper  | 2018/08/31 14:28:47 | 
+ERROR  | wrapper  | 2018/08/31 14:28:48 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 14:28:48 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 14:28:52 | Launching a JVM...
+INFO   | jvm 3    | 2018/08/31 14:28:53 | Connection success!
+STATUS | wrapper  | 2018/08/31 14:29:18 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:29:18 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:29:18 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:29:18 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:29:18 | 
+STATUS | wrapper  | 2018/08/31 14:29:18 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:29:19 | Connection success!
+INFO   | jvm 1    | 2018/08/31 14:29:19 | Starting MyApp shutdown...
+INFO   | jvm 1    | 2018/08/31 14:29:19 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 14:29:19 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 14:29:23 | Launching a JVM...
+INFO   | jvm 2    | 2018/08/31 14:29:24 | Connection success!
+INFO   | jvm 2    | 2018/08/31 14:29:24 | Starting MyApp shutdown...
+INFO   | jvm 2    | 2018/08/31 14:29:24 | MyApp shutdown complete.
+ERROR  | wrapper  | 2018/08/31 14:29:24 | JVM exited while loading the application.
+STATUS | wrapper  | 2018/08/31 14:31:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/08/31 14:31:58 | Java Service Wrapper Community Edition 32-bit 3.5.35
+STATUS | wrapper  | 2018/08/31 14:31:58 |   Copyright (C) 1999-2018 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2018/08/31 14:31:58 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2018/08/31 14:31:58 | 
+STATUS | wrapper  | 2018/08/31 14:31:59 | Launching a JVM...
+INFO   | jvm 1    | 2018/08/31 14:31:59 | Connection success!
+INFO   | jvm 1    | 2018/08/31 14:32:04 | receiving!{"confirmedd":false}
+STATUS | wrapper  | 2018/08/31 14:32:07 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2018/08/31 14:32:18 | receiving!{"confirmedd":false}
+ERROR  | wrapper  | 2018/08/31 14:32:42 | Shutdown failed: Timed out waiting for signal from JVM.
+INFO   | jvm 1    | 2018/08/31 14:33:18 | receiving!{"confirmedd":false}
+INFO   | wrapper  | 2018/08/31 14:33:18 | Wrapper Process has not received any CPU time for 36 seconds.  Extending timeouts.
+ERROR  | wrapper  | 2018/08/31 14:33:53 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2018/08/31 14:33:53 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2018/08/31 14:33:54 | <-- Wrapper Stopped
