@@ -3,23 +3,43 @@ import com.rabbitmq.client.*
 import java.io.IOException
 import java.nio.charset.StandardCharsets
 
-import common.getPreferencies
+import common.getConfig
+import common.byServer
+import data.Result
+import okhttp3.Call
+import okhttp3.Callback
+import okhttp3.Credentials
+import rest.Client
+import retrofit2.Response
 
 object Main {
 
     @JvmStatic
     fun main(args: Array<String>) {
 
-        val preferencies = getPreferencies()
+        val config = getConfig()
 
-        val factory = ConnectionFactory()
-        // "guest"/"guest" by default, limited to localhost connections
-        factory.username = "dubrovin"
-        factory.password = "1234567890"
-        factory.virtualHost = "main"
-        factory.host = "192.168.58.125"
-        factory.port = 5672
 
+        for (subscription in config.apiEndpoints!!) {
+            val client = Client.create(subscription.baseURL!!)
+            val authToken = Credentials.basic(subscription.username, subscription.password)
+            val call = client.getSubscriptions(authToken)
+
+            call.enqueue(object : retrofit2.Callback<Result> {
+
+                override fun onResponse(call: retrofit2.Call<Result>?, responce: Response<Result>?) {
+
+                    println("success")
+
+                }
+                override fun onFailure(call: retrofit2.Call<Result>?, t: Throwable?) {
+                    println("fail")
+                }
+
+            })
+        }
+
+        val factory = ConnectionFactory().byServer(config.main!!)
         try {
             val conn = factory.newConnection()
             val channel = conn.createChannel()
@@ -69,3 +89,4 @@ object Main {
     }
 
 }
+

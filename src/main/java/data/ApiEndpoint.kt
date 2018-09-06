@@ -11,18 +11,24 @@ class ApiEndpoint {
     @SerializedName("description")
     @Expose
     var description: String? = null
+    @SerializedName("baseURL")
+    @Expose
+    var baseURL: String? = null
     @SerializedName("subscription")
     @Expose
     var subscription: String? = null
-    @SerializedName("login")
-    @Expose
-    var login: String? = null
-    @SerializedName("password")
-    @Expose
-    var password: String? = null
     @SerializedName("destination")
     @Expose
     var destination: String? = null
+
+    @SerializedName("username")
+    @Expose
+    var username: String? = null
+
+    @SerializedName("password")
+    @Expose
+    var password: String? = null
+
 
 }
 

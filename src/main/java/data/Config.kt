@@ -10,6 +10,6 @@ class Config {
     var apiEndpoints: List<ApiEndpoint>? = null
     @SerializedName("Main")
     @Expose
-    var main: Main? = null
+    var main: MainProperties? = null
 
 }

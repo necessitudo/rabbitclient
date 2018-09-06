@@ -1,17 +1,36 @@
 package common
 
 import com.google.gson.GsonBuilder
+import com.rabbitmq.client.ConnectionFactory
 import data.Config
+import data.MainProperties
 import java.nio.file.Paths
 import java.nio.file.Files
 
-fun getPreferencies():data.Config{
+fun getConfig():data.Config{
 
     val gson = GsonBuilder().setPrettyPrinting().create()
-    val path = Paths.get("C:\\Users\\inter\\IdeaProjects\\rabbitclient\\out\\starter\\conf\\properties.json")
+    val path = Paths.get("C:\\rabbitclient\\conf\\properties.json")
     val fileData = String(Files.readAllBytes(path))
     val config =   gson.fromJson(fileData, Config::class.java)
 
     return config
 }
+
+
+fun ConnectionFactory.byServer(main:MainProperties): ConnectionFactory {
+    val factory = ConnectionFactory()
+    // "guest"/"guest" by default, limited to localhost connections
+    factory.host        = main.host
+    factory.username    = main.username
+    factory.password    = main.password
+    factory.virtualHost = main.vHost
+    factory.port        = main.port!!
+
+    return factory
+}
+
+
+
+
 

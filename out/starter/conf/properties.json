@@ -3,21 +3,18 @@
     {
       "name": "plazma",
       "description": "",
-      "subscription": "\\mab\\dubrovin_plazma\\hs\\rabbitmq\\subscription",
-      "login": "WS_Robot",
-      "password": "123",
-      "destination": "\\mab\\dubrovin_plazma\\hs\\rabbitmq\\destination"
+      "baseURL":"http://mab.iek.local/RabbitIntegration/hs/rabbitmq",
+      "subscription": "subscription",
+      "destination": "destination",
+      "username": "WS_Robot",
+      "password": "123"
     }
   ],
   "Main": {
-    "server": "192.168.58.120",
+    "host": "192.168.58.120",
+    "vHost":"main",
     "port": 15674,
-    "login": "dubrovin",
-    "password": "1234567890",
-    "proxy": {
-      "apply": true,
-      "server": "10.0.1.12",
-      "port": 8110
-    }
+    "username": "dubrovin",
+    "password": "1234567890"
   }
 }

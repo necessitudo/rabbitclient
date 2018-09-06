@@ -3,22 +3,26 @@ package data
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class Main {
+class MainProperties {
 
-    @SerializedName("server")
+    @SerializedName("host")
     @Expose
-    var server: String? = null
+    var host: String? = null
+
+    @SerializedName("vHost")
+    @Expose
+    var vHost: String? = null
+
     @SerializedName("port")
     @Expose
     var port: Int? = null
-    @SerializedName("login")
+
+    @SerializedName("username")
     @Expose
-    var login: String? = null
+    var username: String? = null
+
     @SerializedName("password")
     @Expose
     var password: String? = null
-    @SerializedName("proxy")
-    @Expose
-    var proxy: Proxy? = null
 
 }
