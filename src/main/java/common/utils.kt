@@ -30,6 +30,26 @@ fun ConnectionFactory.byServer(main:MainProperties): ConnectionFactory {
     return factory
 }
 
+/*fun expectedQuit(){
+
+    val shutdownHook = object : Thread("rabbitclient-shutdown-hook") {
+        override fun run() {
+            println("Starting MyApp shutdown...")
+            // Do some cleanup work.
+
+            try {
+                channel.close()
+                conn.close()
+            } catch (e: Exception) {
+            }
+
+            println("MyApp shutdown complete.")
+
+        }
+    }
+    Runtime.getRuntime().addShutdownHook(shutdownHook)
+}*/
+
 
 
 
