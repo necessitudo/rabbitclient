@@ -2,17 +2,16 @@ package common
 
 import com.google.gson.GsonBuilder
 import com.rabbitmq.client.ConnectionFactory
-import data.Config
-import data.MainProperties
+import model.Config
+import model.MainProperties
+import java.io.FileReader
 import java.nio.file.Paths
 import java.nio.file.Files
 
-fun getConfig():data.Config{
+fun getConfig():model.Config{
 
-    val gson = GsonBuilder().setPrettyPrinting().create()
-    val path = Paths.get("C:\\rabbitclient\\conf\\properties.json")
-    val fileData = String(Files.readAllBytes(path))
-    val config =   gson.fromJson(fileData, Config::class.java)
+    val gson   = GsonBuilder().create()
+    val config = gson.fromJson(FileReader("C:\\rabbitclient\\conf\\properties.json"), Config::class.java)
 
     return config
 }

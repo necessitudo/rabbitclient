@@ -1,11 +1,8 @@
 package rest
 
-import data.Result
+import model.Result
 import retrofit2.Call
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.Header
-import retrofit2.http.POST
+import retrofit2.http.*
 
 interface RestService {
 
@@ -13,6 +10,6 @@ interface RestService {
     fun getSubscriptions(@Header("Authorization") credentials:String):Call<Result>
 
     @POST("destination")
-    fun sendMessage(@Header("Authorization") credentials:String, @Body body: String):Call<Result>
+    fun sendMessage(@Header("Authorization") credentials:String,  @Body body: String):Call<Result>
 
 }

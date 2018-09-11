@@ -1,8 +1,5 @@
 import com.rabbitmq.client.*
 
-import java.io.IOException
-import java.nio.charset.StandardCharsets
-
 import common.getConfig
 import common.byServer
 import okhttp3.Credentials
@@ -22,7 +19,7 @@ object Main {
             val authToken = Credentials.basic(subscription.username, subscription.password)
             val call = client.getSubscriptions(authToken)
 
-            call.enqueue(ResultSubscription(factory))
+            call.enqueue(ResultSubscription(factory, subscription))
         }
 
     }
