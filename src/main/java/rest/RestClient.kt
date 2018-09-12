@@ -3,7 +3,7 @@ package rest
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class Client {
+class RestClient {
 
     companion object {
 

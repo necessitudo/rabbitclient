@@ -3,17 +3,15 @@
     {
       "name": "plazma",
       "description": "",
-      "baseURL":"http://mab.iek.local/RabbitIntegration/hs/rabbitmq",
-      "subscription": "subscription",
-      "destination": "destination",
+      "baseURL":"http://mab.iek.local/RabbitIntegration/hs/rabbitmq/",
       "username": "WS_Robot",
       "password": "123"
     }
   ],
   "Main": {
-    "host": "192.168.58.120",
+    "host": "localhost",
     "vHost":"main",
-    "port": 15674,
+    "port": 5672,
     "username": "dubrovin",
     "password": "1234567890"
   }
