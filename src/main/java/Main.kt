@@ -11,6 +11,8 @@ object Main {
     @JvmStatic
     fun main(args: Array<String>) {
 
+        println("start1")
+
         val config = getConfig()
         val factory = ConnectionFactory().byServer(config.main!!)
 

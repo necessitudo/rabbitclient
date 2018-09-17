@@ -11,7 +11,7 @@ import java.nio.file.Files
 fun getConfig():model.Config{
 
     val gson   = GsonBuilder().create()
-    return gson.fromJson(FileReader("C:\\Users\\olegdubrovin\\IdeaProjects\\rabbitclient\\out\\starter\\conf\\properties.json"), Config::class.java)
+    return gson.fromJson(FileReader("C:\\Users\\dubrovinom\\IdeaProjects\\rabbitclient\\out\\starter\\conf\\properties.json"), Config::class.java)
 
 }
 
