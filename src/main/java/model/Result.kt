@@ -7,9 +7,9 @@ class Result {
 
     @SerializedName("result")
     @Expose
-    private var result: String? = null
+    private val result: String? = null
     @SerializedName("items")
     @Expose
-    private var items: List<Subscription>? = null
+    val items: List<Subscription>? = null
 
 }

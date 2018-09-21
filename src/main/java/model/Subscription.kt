@@ -5,11 +5,15 @@ import com.google.gson.annotations.SerializedName
 
 class Subscription {
 
-    @SerializedName("exchange")
+    @SerializedName("queue")
     @Expose
-    private var exchange: String? = null
+    val queue: String? = null
+
     @SerializedName("routing_key")
     @Expose
-    private var routingKey: String? = null
+    val routingKey: String? = null
 
+    override fun toString(): String {
+        return "queue:$queue routing_key:$routingKey"
+    }
 }

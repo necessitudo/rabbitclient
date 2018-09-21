@@ -1,38 +1,38 @@
 package rest
 
 import amqp.Consumer
-import com.google.gson.GsonBuilder
 import com.rabbitmq.client.ConnectionFactory
 import model.ApiEndpoint
-import model.Message
 import model.Result
-import okhttp3.Credentials
 import retrofit2.Response
 
-class ResultSubscription(private val factory: ConnectionFactory, private val subscription: ApiEndpoint) : retrofit2.Callback<Result> {
+class ResultSubscription(private val factory: ConnectionFactory, private val endpoint: ApiEndpoint, val networkHelper: NetworkHelper) : retrofit2.Callback<Result> {
 
     override fun onResponse(call: retrofit2.Call<Result>?, responce: Response<Result>?) {
 
         if (responce!!.code()!=200){
-            throw Exception("Error on try connection(instance:${subscription.name}):${responce.raw()}")
+            throw Exception("Error on try connection(instance:${endpoint.name}):${responce.raw()}")
         }
-        println("Success connection(instance:${subscription.name})")
+        println("Success connection!!! (instance:${endpoint.name})")
 
-        try {
-            val conn = factory.newConnection()
-            val channel = conn.createChannel()
+        for(subscription in responce.body().items!!)
+        {
+            try {
+                val channel = factory.newConnection().createChannel()
 
-            println("Connection success!")
+                channel.basicConsume(subscription.queue, networkHelper.autoAck, subscription.routingKey, Consumer(channel, endpoint, networkHelper))
 
-            val autoAck = false
-            channel.basicConsume("goodsforwms", autoAck, "goodsforcrm", Consumer(channel, subscription))
+                println("Success consume to $subscription. Ready to receive messages.")
 
-        } catch (e: Exception) {
-            println(e.message)
+            } catch (e: Exception) {
+                println(e.message)
+            }
         }
+
+
 
     }
     override fun onFailure(call: retrofit2.Call<Result>?, t: Throwable?) {
-        println("Error on try connection(instance:${subscription.name}):${t!!.message}")
+        println("Error on try connection(instance:${endpoint.name}):${t!!.message}")
     }
 }
