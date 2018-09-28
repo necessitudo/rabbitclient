@@ -13,7 +13,12 @@ class Application(val args: Array<String>) {
 
         BasicConfigurator.configure();
 
-        val config = getConfig()
+        if(args.size!=1) {
+            println("Bad arguments - path to app's home not found")
+            stop()
+        }
+
+        val config = getConfig(args!!.get(0))
         val factory = ConnectionFactory().byServer(config.main!!)
 
         for (endpoint in config.apiEndpoints!!) {

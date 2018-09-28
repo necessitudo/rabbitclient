@@ -4,14 +4,17 @@ import com.google.gson.GsonBuilder
 import com.rabbitmq.client.ConnectionFactory
 import model.Config
 import model.MainProperties
+import java.io.File
 import java.io.FileReader
 import java.nio.file.Paths
 import java.nio.file.Files
 
-fun getConfig():model.Config{
+fun getConfig(appDirectory:String):model.Config{
+
+    val pathToConfig = "$appDirectory${File.separator}conf${File.separator}properties.json"
 
     val gson   = GsonBuilder().create()
-    return gson.fromJson(FileReader("C:\\Users\\dubrovinom\\IdeaProjects\\rabbitclient\\out\\starter\\conf\\properties.json"), Config::class.java)
+    return gson.fromJson(FileReader(pathToConfig), Config::class.java)
 
 }
 
