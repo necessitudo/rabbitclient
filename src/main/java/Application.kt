@@ -2,6 +2,7 @@ import com.rabbitmq.client.ConnectionFactory
 import common.byServer
 import common.getConfig
 import okhttp3.Credentials
+import org.apache.log4j.BasicConfigurator
 import rest.NetworkHelper
 import rest.RestClient
 import rest.ResultSubscription
@@ -9,6 +10,8 @@ import rest.ResultSubscription
 class Application(val args: Array<String>) {
 
     fun start() {
+
+        BasicConfigurator.configure();
 
         val config = getConfig()
         val factory = ConnectionFactory().byServer(config.main!!)

@@ -1,16 +1,15 @@
 package amqp
 
-import com.google.gson.GsonBuilder
 import com.rabbitmq.client.AMQP
 import com.rabbitmq.client.Channel
 import com.rabbitmq.client.DefaultConsumer
 import com.rabbitmq.client.Envelope
 import model.ApiEndpoint
-import model.Message
-import okhttp3.Credentials
+import okhttp3.MediaType
 import rest.NetworkHelper
-import rest.RestClient
-import java.nio.charset.StandardCharsets
+import okhttp3.RequestBody
+
+
 
 class Consumer(channel: Channel, val endpoint: ApiEndpoint, val networkHelper: NetworkHelper): DefaultConsumer(channel) {
 
@@ -21,13 +20,13 @@ class Consumer(channel: Channel, val endpoint: ApiEndpoint, val networkHelper: N
         val deliveryTag = envelope.deliveryTag
         // (process the message components here ...)*/
 
-        val bodyMessage = String(body!!, StandardCharsets.UTF_8)
-        val message = Message(envelope!!.routingKey, bodyMessage)
+        val bodyMessage = RequestBody.create(MediaType.parse("text/plain"), body)
 
-        val call = networkHelper.client.sendMessage(networkHelper.authToken, networkHelper.gson.toJson(message))
-        val result = call.execute()
-
-        if (result.code()==200) channel.basicAck(envelope.deliveryTag, false)
+        val call = networkHelper.client.sendMessage(networkHelper.authToken,envelope!!.routingKey, bodyMessage)
+        try {
+           val result = call.execute()
+           if (result.code()==200) channel.basicAck(envelope!!.deliveryTag, false)
+        } catch (e: Exception){e.printStackTrace()}
 
     }
 }
