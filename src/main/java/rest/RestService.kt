@@ -11,6 +11,6 @@ interface RestService {
     fun getSubscriptions(@Header("Authorization") credentials:String):Call<Result>
 
     @POST("destination")
-    fun sendMessage(@Header("Authorization") credentials:String, @Header("routingKey") routingKey:String,  @Body body: RequestBody):Call<Result>
+    fun sendMessage(@Header("Authorization") credentials:String, @Header("exchange") exchange:String, @Header("routingKey") routingKey:String,  @Body body: RequestBody):Call<Result>
 
 }

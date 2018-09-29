@@ -22,7 +22,7 @@ class Consumer(channel: Channel, val endpoint: ApiEndpoint, val networkHelper: N
 
         val bodyMessage = RequestBody.create(MediaType.parse("text/plain"), body)
 
-        val call = networkHelper.client.sendMessage(networkHelper.authToken,envelope!!.routingKey, bodyMessage)
+        val call = networkHelper.client.sendMessage(networkHelper.authToken,envelope!!.exchange, envelope!!.routingKey,  bodyMessage)
         try {
            val result = call.execute()
            if (result.code()==200) channel.basicAck(envelope!!.deliveryTag, false)
